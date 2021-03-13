@@ -1,0 +1,374 @@
+
+
+/* NAVBAR STYLINGS */
+
+.brand-font {
+    font-size: 1.25rem;
+    font-weight: 600 !important;
+    color: white !important;
+    padding: 0px 15px !important;
+}
+
+.navbar, .dropdown-item {
+    background-color: #0254a6;
+}
+
+.contact-brand {
+    width: 376px !important;
+}
+
+.fa-brand {
+    color: #8DC53D !important;
+    padding-right: 10px !important;
+}
+
+#navbar-logo {
+    width: 376px;
+    height: 110px;
+}
+
+
+.dropdown-item {
+    font-weight: bold;
+}
+
+.dropdown-item:hover {
+    background-color: #0d6efd !important;
+}
+
+.nav-link:hover {
+    color: #8ec53e !important;
+}
+
+.carousel-item {
+    height: 35em;
+    width: 100%;
+    background:lightslategrey;
+}
+
+.slider-img1 {
+    position: absolute;
+    margin-top: -450px;
+}
+
+.slider-img2 {
+    position: absolute;
+    margin-top: -100px;
+}
+
+.slider-img3 {
+    position: absolute;
+    margin-top: -450px;
+}
+
+.slider-img4 {
+    position: absolute;
+    margin-top: -600px;
+}
+
+.slider-img5 {
+    position: absolute;
+    margin-top: -250px;
+}
+
+.slider-img6 {
+    position: absolute;
+    margin-top: -550px;
+}
+
+.hero-container {
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%
+  }
+
+  .hero-call {
+      font-weight: bold;
+      color: white;
+  }
+
+
+
+/* ************************************************************** */
+/*                           MEDIA QUERIES                        */
+/* ************************************************************** */
+
+@media screen and (max-width: 1550px) {
+    .slider-img1 {
+        position: absolute;
+        margin-top: -350px;
+    }
+    
+    .slider-img2 {
+        position: absolute;
+        margin-top: -80px;
+    }
+    
+    .slider-img3 {
+        position: absolute;
+        margin-top: -350px;
+    }
+    
+    .slider-img4 {
+        position: absolute;
+        margin-top: -350px;
+    }
+    
+    .slider-img5 {
+        position: absolute;
+        margin-top: -150px;
+    }
+    
+    .slider-img6 {
+        position: absolute;
+        margin-top: -350px;
+    }
+
+}
+
+@media screen and (max-width: 1415px) {
+    .navbar, .dropdown-item {
+        font-size: 0.8em;
+    }
+
+}
+
+
+@media screen and (max-width: 1240px) {
+    .slider-img1 {
+        position: absolute;
+        margin-top: -250px;
+    }
+    
+    .slider-img2 {
+        position: absolute;
+        margin-top: -50px;
+    }
+    
+    .slider-img3 {
+        position: absolute;
+        margin-top: -250px;
+    }
+    
+    .slider-img4 {
+        position: absolute;
+        margin-top: -250px;
+    }
+    
+    .slider-img5 {
+        position: absolute;
+        margin-top: -80px;
+    }
+    
+    .slider-img6 {
+        position: absolute;
+        margin-top: -250px;
+    }
+
+    .navbar, .dropdown-item {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    .slider-img1 {
+        position: absolute;
+        margin-top: -150px;
+    }
+    
+    .slider-img2 {
+        position: absolute;
+        margin-top: -30px;
+    }
+    
+    .slider-img3 {
+        position: absolute;
+        margin-top: -150px;
+    }
+    
+    .slider-img4 {
+        position: absolute;
+        margin-top: -150px;
+    }
+    
+    .slider-img5 {
+        position: absolute;
+        margin-top: -50px;
+    }
+    
+    .slider-img6 {
+        position: absolute;
+        margin-top: -150px;
+    }
+
+    .navbar, .dropdown-item {
+        font-size: 0.6em;
+    }
+}
+
+
+@media screen and (max-width: 960px) {
+    .slider-img1 {
+        position: absolute;
+        margin-top: -50px;
+    }
+    
+    .slider-img2 {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .slider-img3 {
+        position: absolute;
+        margin-top: -50px;
+    }
+    
+    .slider-img4 {
+        position: absolute;
+        margin-top: -50px;
+    }
+    
+    .slider-img5 {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .slider-img6 {
+        position: absolute;
+        margin-top: -50px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .slider-img1 {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .slider-img2 {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .slider-img3 {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .slider-img4 {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .slider-img5 {
+        position: absolute;
+        margin-top: 0;
+    }
+    
+    .slider-img6 {
+        position: absolute;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 755px) {
+    
+    .carousel-item {
+        height: 30em;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    
+    .carousel-item {
+        height: 25em;
+    }
+
+    #navbar-logo, .contact-brand {
+        width: 274px;
+        height: auto;
+        text-align: left !important;
+    }
+
+    .brand-font {
+        font-size: 1.2em;
+        margin-left: 10px;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 650px) {
+    
+    .carousel-item {
+        height: 20em;
+    }
+
+    .brand-container {
+        width: 250px;
+    }
+
+    #navbar-logo, .contact-brand {
+        width: 230px;
+        height: auto;
+        text-align: left !important;
+    }
+
+    .brand-font {
+        font-size: 1em;
+        margin-left: 0;
+    }
+    
+
+    
+}
+
+@media screen and (max-width: 440px) {
+    
+    .carousel-item {
+        height: 16em;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    
+    .carousel-item {
+        height: 14em;
+    }
+
+    .brand-container {
+        width: 200px;
+    }
+
+    #navbar-logo, .contact-brand {
+        width: 190px;
+        height: auto;
+        text-align: left !important;
+    }
+
+    .brand-font {
+        font-size: .8em;
+        margin-left: 0;
+    }
+       
+}
