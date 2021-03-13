@@ -98,10 +98,30 @@
   }
 
   .hero-call {
-      font-weight: bold;
-      color: white;
+    font-weight: 900;
+    font-size: 2em;
+    color: white;
   }
 
+
+/* ************************************************************** */
+/*                  Emergency Services Animation                  */
+/* ************************************************************** */
+
+  .emerg-serv {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    z-index: 11;
+    animation-name: entering-right;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes entering-right {
+    0%   {opacity: 0; right:0px; bottom:20px;}
+    100% {opacity: 100%; right:400px; bottom:20px;}
+  }
 
 
 /* ************************************************************** */
