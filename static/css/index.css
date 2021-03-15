@@ -158,27 +158,42 @@
 }
 
 .tmn-client {
-    top: 0;
     color: #0154A6;
     font-size: 1.5em;
     font-weight: 700;
 }
 
 .tmn-locat {
-    top: 0;
     color: #8DC53D;
     font-weight: 700;
     letter-spacing: 2.5px;
 }
 
-.carousel-item, .carouseltmn {
-    background-color: rgb(221, 196, 196) !important;
+.carousel-tmn-item, .carouseltmn {
+    height: 300px;
+    padding: 50px 10px;
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .carousel-control-prev, .carousel-control-next {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
 }
- 
+
+.tmn-callus {
+    text-align: center;
+    color: #0154A6;
+    font-size: 39px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    margin-bottom: 80px;
+}
+
+.tmn-callus img {
+    height: 1em;
+    padding-right: 10px;
+}
+
 /* ************************************************************** */
 /*                           MEDIA QUERIES                        */
 /* ************************************************************** */
@@ -294,6 +309,24 @@
     .navbar, .dropdown-item {
         font-size: 0.6em;
     }
+
+    .tmn-main {
+        font-size: 1em;
+        padding: 0 50px;
+        text-align: center;
+    }
+    
+    .tmn-client {
+        color: #0154A6;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+        
+    .carousel-tmn-item, .carouseltmn {
+        padding: 50px 10px;
+    }
+
+
 }
 
 
@@ -361,6 +394,20 @@
         margin-top: 0;
     }
 
+    .tmn-main {
+        font-size: .9em;
+        padding: 0 30px;
+        text-align: center;
+    }
+    
+    .tmn-client {
+        font-size: 1em;
+    }
+        
+    .carousel-tmn-item, .carouseltmn {
+        padding: 50px 0;
+    }
+
 }
 
 @media screen and (max-width: 755px) {
@@ -382,7 +429,19 @@
         width: 65%;
     }
 
-
+    .tmn-main {
+        font-size: .9em;
+        padding-bottom: 20px;
+    }
+    
+    .tmn-client {
+        font-size: 1em;
+    }
+        
+    .carousel-tmn-item, .carouseltmn {
+        height: 300px;
+        padding: 50px 0;
+    }
 
 }
 
@@ -408,7 +467,10 @@
         margin-left: 10px;
     }
     
-
+    .carousel-tmn-item, .carouseltmn {
+        height: 320px;
+        padding: 50px 0;
+    }
     
 }
 
@@ -459,6 +521,10 @@
         font-size: .8em;
     }
     
+    .carousel-tmn-item, .carouseltmn {
+        height: 320px;
+        padding: 20px 0;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -484,6 +550,11 @@
 
     .hero-call {
         font-size: .8em;
+    }
+
+    .carousel-tmn-item, .carouseltmn {
+        height: 320px;
+        padding: 0;
     }
 
        
