@@ -126,7 +126,7 @@
     position: absolute;
     z-index: 11;
     animation-name: entering-right;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
   }
 
@@ -183,7 +183,7 @@
 .tmn-callus {
     text-align: center;
     color: #0154A6;
-    font-size: 39px;
+    font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 3.5px;
     margin-bottom: 80px;
@@ -193,6 +193,129 @@
     height: 1em;
     padding-right: 10px;
 }
+
+/* ************************************************************** */
+/*                         ROOF CONTRACTORS                       */
+/* ************************************************************** */
+
+.roofcont {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0154A6 46%, #8DC53D 100%);
+    padding: 50px 0;
+    
+}
+
+.roofcont-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roofcont-first-title {
+    color: #FFFFFF;
+    background-color: #0154A6;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-style: solid;
+    padding: 10px 20px 10px 20px;
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+}
+
+.roofcont-second-title {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.roofcont-middle-text {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 220px;
+}
+
+.roofcont-after-text {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 3.5px;
+    text-shadow: 0px 5px 5px rgb(0 0 0 / 30%);
+    color: #FFFFFF;
+}
+
+
+.roofcont-half-div {
+    position: relative;
+    background-color: #8DC53D;
+    
+}
+
+.roofcont-third-title {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #8DC53D;
+    font-family: "Open Sans", Sans-serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 0px 5px 5px rgb(0 0 0 / 30%);   
+}
+
+.roofcont-fourth-title {
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+    text-shadow: 0px 5px 5px rgb(0 0 0 / 30%);
+    margin-left: 10px;
+}
+
+.roof-half {
+    text-align:center;
+}
+
+.roofcont-title2 {
+    margin-bottom: -30px;
+}
+
+.roofcont-bottom {
+    background-color: #000000;
+}
+
+.pilula-titulo {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-radius: 50px 50px 50px 50px;
+    margin: 20px 35%;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pilula1 {
+    background-color: #61CE70;
+}
+
+.pilula2 {
+    background-color: #8DC53D;
+}
+
+.pilula3 {
+    background-color: #0154A6;
+}
+
 
 /* ************************************************************** */
 /*                           MEDIA QUERIES                        */
@@ -273,6 +396,10 @@
     .navbar, .dropdown-item {
         font-size: 0.6em;
     }
+
+    .tmn-callus {
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width: 1085px) {
@@ -326,6 +453,9 @@
         padding: 50px 10px;
     }
 
+    .tmn-callus {
+        font-size: 1.5em;
+    }
 
 }
 
@@ -406,6 +536,10 @@
         
     .carousel-tmn-item, .carouseltmn {
         padding: 50px 0;
+    }
+
+    .tmn-callus {
+        font-size: 1em;
     }
 
 }
@@ -508,7 +642,6 @@
         width: 50%;
     }
 
-    
 }
 
 @media screen and (max-width: 440px) {
