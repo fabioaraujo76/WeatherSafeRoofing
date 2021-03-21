@@ -238,7 +238,7 @@
 
 .roofcont-after-text {
     font-family: "Open Sans", Sans-serif;
-    font-size: 40px;
+    font-size: 1.4em;
     font-weight: 900;
     text-transform: uppercase;
     font-style: normal;
@@ -289,19 +289,55 @@
 
 .roofcont-bottom {
     background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pilula-link {
+    text-decoration: none;
+    font-family: "Open Sans", Sans-serif;
+    color: #FFFFFF;
+}
+
+.pilula-link:hover {
+    color: #FFFFFF;
 }
 
 .pilula-titulo {
+    position: relative;
     margin: 0px 0px 0px 0px;
     padding: 10px 10px 10px 10px;
     border-style: solid;
     border-width: 2px 2px 2px 2px;
     border-color: #FFFFFF;
     border-radius: 50px 50px 50px 50px;
-    margin: 20px 35%;
-    font-family: "Open Sans", Sans-serif;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 600;
+    z-index: 1;
+    max-width: 450px;
+    min-width: 400px;
+    
+}
+
+.pilula-titulo::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    transition: transform 300ms ease-in;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.pilula-titulo:hover::after {
+    transform: scaleX(1);
 }
 
 .pilula1 {
@@ -315,6 +351,7 @@
 .pilula3 {
     background-color: #0154A6;
 }
+
 
 
 /* ************************************************************** */
@@ -457,6 +494,10 @@
         font-size: 1.5em;
     }
 
+    .roofcont-middle-text {
+        padding: 0 100px;
+    }
+
 }
 
 
@@ -540,6 +581,25 @@
 
     .tmn-callus {
         font-size: 1em;
+    }
+
+    .roofcont-middle-text {
+        padding: 0 50px;
+    }
+
+    .roofcont-title, 
+    .roofcont-after-text {
+        font-size: 1.2em;
+    }
+
+    .roofcont-title2 {
+        font-size: 1.2em;
+        margin-bottom: -25px;
+    }
+    
+    .pilula-titulo {
+        font-size: 1.1em;
+        min-width: 350px;
     }
 
 }
@@ -642,6 +702,24 @@
         width: 50%;
     }
 
+    .roofcont-title, 
+    .roofcont-after-text {
+        font-size: 1em;
+    }
+
+    .roofcont-middle-text {
+        font-size: 0.9em;
+    }
+
+    .roofcont-title2 {
+        font-size: 1em;
+        margin-bottom: -25px;
+    }
+    
+    .pilula-titulo {
+        font-size: 0.9em;
+        min-width: 250px;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -657,6 +735,25 @@
     .carousel-tmn-item, .carouseltmn {
         height: 320px;
         padding: 20px 0;
+    }
+
+    .roofcont-title, 
+    .roofcont-after-text {
+        font-size: 0.9em;
+    }
+
+    .roofcont-middle-text {
+        font-size: 0.8em;
+    }
+
+    .roofcont-title2 {
+        font-size: 0.9em;
+        margin-bottom: -25px;
+    }
+    
+    .pilula-titulo {
+        font-size: 0.8em;
+        min-width: 250px;
     }
 }
 
@@ -689,6 +786,23 @@
         height: 320px;
         padding: 0;
     }
+    .roofcont-title, 
+    .roofcont-after-text {
+        font-size: 0.8em;
+    }
 
+    .roofcont-middle-text {
+        font-size: 0.8em;
+    }
+
+    .roofcont-title2 {
+        font-size: 0.8em;
+        margin-bottom: -25px;
+    }
+    
+    .pilula-titulo {
+        font-size: 0.8em;
+        min-width: 250px;
+    }
        
 }
