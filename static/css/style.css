@@ -461,6 +461,37 @@
 
 
 
+/* ************************************************************** */
+/*                              Our Services                      */
+/* ************************************************************** */
+
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.card {
+    min-width: 353px;
+    margin: 0 30px;
+}
+
+
+
+.card-body {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.card-body a {
+    text-decoration: none;
+    
+}
 
 .card-title {
     font-family: "Open Sans", Sans-serif;
@@ -470,6 +501,87 @@
     color: #0254a6;
     text-align: center;
 }
+
+.card-text {
+    margin: 30px 0;
+    min-height: 120px;
+}
+
+.card-link {
+    background-color:#8DC53D;    
+    font-weight: 500;
+    padding: 10px 4px;
+    margin: 0 50px;
+    color: #FFFFFF !important;
+    border-radius: 5px;
+}
+
+
+.card-link:hover {
+    background-color:#0254a6;
+    color: #FFFFFF !important;
+    animation: moveup 400ms ease-in-out forwards;
+}
+
+@keyframes moveup {
+    0% {transform:translateY(0px);}
+    100% {transform:translateY(-10px);}
+}
+
+
+.contactus-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.contactus-container a {
+    text-decoration: none;
+}
+
+
+.contactus-link {
+    text-align: center;
+    background-color:#8DC53D;    
+    font-weight: 500;
+    padding: 10px 4px;
+    width: 250px;
+    margin: 0 50px;
+    color: #FFFFFF !important;
+    border-radius: 50px;
+}
+
+
+.contactus-link:hover {
+    background-color:#0254a6;
+    color: #FFFFFF !important;
+    animation: moveup 400ms ease-in-out forwards;
+}
+
+
+/* ************************************************************** */
+/*                             Map Area                           */
+/* ************************************************************** */
+
+
+
+.map-area {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+
+
+/* ************************************************************** */
+/*                             Footer                             */
+/* ************************************************************** */
+
+
+
+
+
 
 
 
@@ -520,6 +632,11 @@
         max-width: 350px;
         min-width: 250px;
     }
+
+    .card {
+        min-width: 250px;
+        margin: 0 20px;
+    }
 }
 
 
@@ -566,6 +683,20 @@
         max-width: 300px;
         min-width: 250px;
     }
+
+    .card {
+        min-width: 200px;
+        margin: 0 5px;
+    }
+
+    .card-text {
+        min-height: 170px;
+    }
+
+    .card-title {
+        min-height: 48px;
+    }
+
 }
 
 @media screen and (max-width: 1085px) {
@@ -630,6 +761,22 @@
     .whyus-block {
         max-width: 230px;
         min-width: 200px;
+    }
+
+}
+
+
+@media screen and (max-width: 990px) {
+    .card {
+        min-width: 485px;
+    }
+
+    .card-text {
+        min-height: 100px;
+    }
+
+    .card-title {
+        min-height: auto;
     }
 
 }
@@ -864,6 +1011,19 @@
         font-size: 0.9em;
         min-width: 250px;
     }
+
+    .card {
+        min-width: auto;
+    }
+
+    .card-text {
+        min-height: 100px;
+    }
+
+    .card-title {
+        min-height: auto;
+    }
+
 }
 
 @media screen and (max-width: 440px) {
