@@ -662,7 +662,12 @@
 }
 
 
-.newroofs-container h2 {
+/* ************************************************************** */
+/*                 New Roofs   / Roof Repairs                     */
+/* ************************************************************** */
+
+
+.roofservices-container h2 {
     color: #000000;
     font-family: "Open Sans", Sans-serif;
     font-size: 50px;
@@ -673,13 +678,13 @@
     padding: 30px;
 }
 
-.newroofs-container h3 {
+.roofservices-container h3 {
     font-weight: 600;
     color: #0154A6;
     padding-bottom: 20px;
 }
 
-.newroofs-container img {
+.roofservices-container img {
     padding-bottom: 30px;
 }
 
