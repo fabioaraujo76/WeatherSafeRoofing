@@ -661,6 +661,53 @@
     text-decoration: none;
 }
 
+
+.newroofs-container h2 {
+    color: #000000;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+
+.newroofs-container h3 {
+    font-weight: 600;
+    color: #0154A6;
+    padding-bottom: 20px;
+}
+
+.newroofs-container img {
+    padding-bottom: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight:600;
+}
+
+.guaranty-call {
+    font-family: "Open Sans", Sans-serif;
+    font-size: 2.5em;
+    color:#FFFFFF;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 3.5px;
+    background: -webkit-linear-gradient(#0154A6, #8DC53D);
+    border-radius: 15px;
+    background-color: transparent;
+    text-shadow: 0px 5px 10px rgba(80, 109, 236, 0.76);
+    padding: 20px;
+    margin: 40px;
+    
+}
+
+
+
+
 /* ************************************************************** */
 /*                           MEDIA QUERIES                        */
 /* ************************************************************** */
@@ -772,6 +819,14 @@
         min-height: 48px;
     }
 
+    .foot-col {
+        font-size: .7em;
+    }
+
+    .foot-col img {
+        width: 300px !important;
+    }
+
 }
 
 @media screen and (max-width: 1085px) {
@@ -853,6 +908,22 @@
     .card-title {
         min-height: auto;
     }
+
+    .foot-col {
+        min-width: 500px;
+        margin-top: 20px;
+    }
+
+    .foot-col p {
+        text-align: left;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+
+
+    
 
 }
 
