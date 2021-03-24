@@ -236,7 +236,7 @@
 .roofcont-middle-text {
     color: #FFFFFF;
     text-align: center;
-    padding: 0 220px;
+    padding: 0 420px;
 }
 
 .roofcont-after-text {
@@ -757,6 +757,10 @@
         margin-top: -350px;
     }
 
+    .roofcont-middle-text {
+        padding: 0 350px;
+    }
+
 }
 
 @media screen and (max-width: 1415px) {
@@ -839,6 +843,10 @@
 
     .foot-col img {
         width: 300px !important;
+    }
+
+    .roofcont-middle-text {
+        padding: 0 250px;
     }
 
 }
@@ -1078,6 +1086,11 @@
         font-size: .9em;
         padding-bottom: 20px;
     }
+
+    .tmn-title {
+        font-size: 1.5em;
+        padding-bottom: 30px;
+    }
     
     .tmn-client {
         font-size: 1em;
@@ -1110,6 +1123,11 @@
     .brand-font {
         font-size: 1.2em;
         margin-left: 10px;
+    }
+
+    .foot-col {
+        min-width: 400px;
+        padding: 0 30px;
     }
     
     .carousel-tmn-item, .carouseltmn {
@@ -1193,7 +1211,7 @@
     }
 
     .hero-call {
-        font-size: .8em;
+        font-size: .7em;
     }
     
     .carousel-tmn-item, .carouseltmn {
@@ -1219,6 +1237,15 @@
         font-size: 0.8em;
         min-width: 250px;
     }
+
+    .foot-col {
+        min-width: 280px;
+        padding: 0 20px;
+    }
+
+    .foot-col img {
+        width: 290px !important;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -1243,7 +1270,7 @@
     }
 
     .hero-call {
-        font-size: .8em;
+        font-size: .65em;
     }
 
     .carousel-tmn-item, .carouseltmn {
