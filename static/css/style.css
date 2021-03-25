@@ -236,7 +236,7 @@
 .roofcont-middle-text {
     color: #FFFFFF;
     text-align: center;
-    padding: 0 220px;
+    padding: 0 420px;
 }
 
 .roofcont-after-text {
@@ -663,14 +663,14 @@
 
 
 /* ************************************************************** */
-/*                 New Roofs   / Roof Repairs                     */
+/*              Services styles for remaining pages               */
 /* ************************************************************** */
 
 
 .roofservices-container h2 {
     color: #000000;
     font-family: "Open Sans", Sans-serif;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: 900;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -682,6 +682,10 @@
     font-weight: 600;
     color: #0154A6;
     padding-bottom: 20px;
+}
+
+.roofservices-container p {
+    padding: 20px 200px;
 }
 
 .roofservices-container img {
@@ -721,6 +725,11 @@
     margin: 40px;
 }
 
+#gallery img {
+    min-width: 275px;
+}
+
+
 
 /* ************************************************************** */
 /*                           MEDIA QUERIES                        */
@@ -757,6 +766,10 @@
         margin-top: -350px;
     }
 
+    .roofcont-middle-text {
+        padding: 0 350px;
+    }
+
 }
 
 @media screen and (max-width: 1415px) {
@@ -772,6 +785,10 @@
     .card {
         min-width: 250px;
         margin: 0 20px;
+    }
+
+    .roofservices-container p {
+        padding: 20px 80px;
     }
 }
 
@@ -839,6 +856,10 @@
 
     .foot-col img {
         width: 300px !important;
+    }
+
+    .roofcont-middle-text {
+        padding: 0 250px;
     }
 
 }
@@ -1053,6 +1074,14 @@
         min-width: 250px;
     }
 
+    .roofservices-container h2 {
+        font-size: 2.2em;
+    }
+
+    .roofservices-container p {
+        padding: 20px 20px;
+    }
+
 }
 
 @media screen and (max-width: 755px) {
@@ -1077,6 +1106,11 @@
     .tmn-main {
         font-size: .9em;
         padding-bottom: 20px;
+    }
+
+    .tmn-title {
+        font-size: 1.5em;
+        padding-bottom: 30px;
     }
     
     .tmn-client {
@@ -1110,6 +1144,11 @@
     .brand-font {
         font-size: 1.2em;
         margin-left: 10px;
+    }
+
+    .foot-col {
+        min-width: 400px;
+        padding: 0 30px;
     }
     
     .carousel-tmn-item, .carouseltmn {
@@ -1184,6 +1223,10 @@
         min-height: auto;
     }
 
+    .roofservices-container h2 {
+        font-size: 1.8em;
+    }
+
 }
 
 @media screen and (max-width: 440px) {
@@ -1193,7 +1236,7 @@
     }
 
     .hero-call {
-        font-size: .8em;
+        font-size: .7em;
     }
     
     .carousel-tmn-item, .carouseltmn {
@@ -1219,6 +1262,19 @@
         font-size: 0.8em;
         min-width: 250px;
     }
+
+    .foot-col {
+        min-width: 280px;
+        padding: 0 20px;
+    }
+
+    .foot-col img {
+        width: 290px !important;
+    }
+
+    .guaranty-call {
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -1243,7 +1299,7 @@
     }
 
     .hero-call {
-        font-size: .8em;
+        font-size: .65em;
     }
 
     .carousel-tmn-item, .carouseltmn {
