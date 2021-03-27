@@ -729,6 +729,19 @@
     min-width: 260px;
 }
 
+.come-in {
+    animation: moveupimg 3s ease-in-out forwards;
+}
+
+.already-visible {
+    transform: translateY(0);
+    animation: none;
+  }
+
+@keyframes moveupimg {
+    0% {opacity:0; transform:translateY(0px);}
+    100% {opacity:100%; transform:translateY(-20px);}
+}
 
 
 /* ************************************************************** */
