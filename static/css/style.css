@@ -408,7 +408,9 @@ body {
 .whyus-block {
     max-width: 400px;
     min-width: 250px;
-    padding: 10px 10.5px;
+    padding: 10px 10px;
+    margin-left: 1px;
+    margin-right: 1px;
     display: block;
     position: relative;
     z-index: 1;
